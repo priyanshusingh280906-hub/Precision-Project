@@ -39,8 +39,8 @@ function Services() {
                 <div className="flex flex-col gap-[clamp(4px,1.2vw,16px)] pt-[clamp(5px,1.8vw,25px)]">
                   <div className="flex gap-4 items-center">
                     <img
-                      src="../images/services-overview/icons/Icon-pg1.png"
-                      className="w-5 h-5"
+                      src={`${import.meta.env.BASE_URL}images/services-overview/icons/icon1.png`}
+                      className="w-3.5 h-5"
                     ></img>
                     <div className="text-[#131B2E] font-inter text-base font-normal">
                       Conceptual Storyboarding
@@ -48,7 +48,7 @@ function Services() {
                   </div>
                   <div className="flex gap-4 items-center">
                     <img
-                      src="../images/services-overview/icons/Icon-pg2.png"
+                      src={`${import.meta.env.BASE_URL}images/services-overview/icons/Icon2.png`}
                       className="w-5 h-5"
                     ></img>
                     <div className="text-[#131B2E] font-inter text-base font-normal">
@@ -57,7 +57,7 @@ function Services() {
                   </div>
                   <div className="flex gap-4 items-center">
                     <img
-                      src="../images/services-overview/icons/Icon-pg3.png"
+                      src={`${import.meta.env.BASE_URL}images/services-overview/icons/Icon3.png`}
                       className="w-5 h-5"
                     ></img>
                     <div className="text-[#131B2E] font-inter text-base font-normal">
@@ -67,13 +67,13 @@ function Services() {
                 </div>
               </div>
               <img
-                src="../images/services-overview/image2.png"
+                src={`${import.meta.env.BASE_URL}images/services-overview/image2.png`}
                 className="w-full lg:w-1/2 object-cover"
               ></img>
             </div>
             <div className="flex flex-col lg:flex-row gap-[clamp(24px,5vw,64px)] items-center">
               <img
-                src="../images/services-overview/image1.png"
+                src={`${import.meta.env.BASE_URL}images/services-overview/image1.png`}
                 className="w-full lg:w-[55%] h-75 sm:h-100 object-cover object-center pt-[clamp(16px,3vw,48px)]"
               ></img>
               <div className="flex flex-col gap-[clamp(4px,1.2vw,16px)]">
@@ -153,7 +153,7 @@ function Services() {
                     Real-time Attribution
                   </div>
                   <img
-                    src="../images/services-overview/icons/Icon-trend.png"
+                    src={`${import.meta.env.BASE_URL}images/services-overview/icons/Icon-trend.png`}
                     className="h-3 w-auto"
                   ></img>
                 </div>
@@ -175,7 +175,7 @@ function Services() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-[clamp(14px,4.3vw,48px)]">
                 <div className="flex flex-col gap-3.5">
                   <img
-                    src="../images/services-overview/icons/icon1.png"
+                    src={`${import.meta.env.BASE_URL}images/services-overview/icons/Icon-pg1.png`}
                     className="w-12 p-[15px_18px] bg-[#E2E7FF] rounded-xl"
                   ></img>
                   <div className="text-[18px] font-light font-manrope text-[#131B2E] leading-[1.4]">
@@ -188,7 +188,7 @@ function Services() {
                 </div>
                 <div className="flex flex-col gap-3.5">
                   <img
-                    src="../images/services-overview/icons/Icon2.png"
+                    src={`${import.meta.env.BASE_URL}images/services-overview/icons/Icon-pg2.png`}
                     className="w-12 p-3.5 bg-[#E2E7FF] rounded-xl"
                   />
                   <div className="text-[18px] font-light font-manrope text-[#131B2E] leading-[1.4]">
@@ -201,7 +201,7 @@ function Services() {
                 </div>
                 <div className="flex flex-col gap-3.5">
                   <img
-                    src="../images/services-overview/icons/Icon3.png"
+                    src={`${import.meta.env.BASE_URL}images/services-overview/icons/Icon-pg3.png`}
                     className="w-12 p-[14px_15px] bg-[#E2E7FF] rounded-xl"
                   />
                   <div className="text-[18px] font-light font-manrope text-[#131B2E] leading-[1.4]">

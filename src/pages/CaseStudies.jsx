@@ -29,7 +29,7 @@ function CaseStudies() {
 
             <div className="flex flex-col gap-6">
 
-                <img src="../images/case-studies-img/image1.png" className="w-full max-w-xl rounded-xl object-cover"></img>
+                <img src={`${import.meta.env.BASE_URL}images/case-studies-img/image1.png`} className="w-full max-w-xl rounded-xl object-cover" />
 
                 <div className="flex flex-col gap-2">
 
@@ -53,7 +53,7 @@ function CaseStudies() {
 
             <div className="flex flex-col gap-6 md:pt-20">
 
-                <img src="../images/case-studies-img/image2.png" className="w-full max-w-xl rounded-xl object-cover"></img>
+                <img src={`${import.meta.env.BASE_URL}images/case-studies-img/image2.png`} className="w-full max-w-xl rounded-xl object-cover"></img>
 
                 <div className="flex flex-col gap-2">
 
@@ -77,11 +77,11 @@ function CaseStudies() {
 
             <div className="md:col-span-2 flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-10 py-16">
 
-                <img src="../images/case-studies-img/image3.jpg" className="w-16 sm:w-20 md:w-24 rounded-xl object-cover"></img>
+                <img src={`${import.meta.env.BASE_URL}images/case-studies-img/image3.jpg`} className="w-16 sm:w-20 md:w-24 rounded-xl object-cover"></img>
 
                 <div className="flex flex-col gap-4">
 
-                    <img src="../images/case-studies-img/icon/Icon1.png" className="w-8"></img>
+                    <img src={`${import.meta.env.BASE_URL}images/case-studies-img/icon/Icon1.png`} className="w-8"></img>
 
                     <div
                         className="text-lg sm:text-2xl md:text-3xl font-manrope font-medium leading-relaxed text-[#131B2E]">
@@ -100,7 +100,7 @@ function CaseStudies() {
 
             <div className="flex flex-col gap-6">
 
-                <img src="../images/case-studies-img/image4.png" className="w-full max-w-xl rounded-xl object-cover"></img>
+                <img src={`${import.meta.env.BASE_URL}images/case-studies-img/image4.png`} className="w-full max-w-xl rounded-xl object-cover"></img>
 
                 <div className="flex flex-col gap-2">
 
@@ -124,7 +124,7 @@ function CaseStudies() {
 
             <div className="flex flex-col gap-6 md:pt-20">
 
-                <img src="../images/case-studies-img/image5.png" className="w-full max-w-xl rounded-xl object-cover"></img>
+                <img src={`${import.meta.env.BASE_URL}images/case-studies-img/image5.png`} className="w-full max-w-xl rounded-xl object-cover"></img>
 
                 <div className="flex flex-col gap-2">
 
@@ -165,7 +165,7 @@ function CaseStudies() {
 
                     <div className="flex gap-4 items-start">
 
-                        <img src="../images/case-studies-img/icon/Icon2.png" className="w-8 h-8 p-2 bg-[#0052FF33] rounded"></img>
+                        <img src={`${import.meta.env.BASE_URL}images/case-studies-img/icon/Icon2.png`} className="w-6.5 h-8 p-2 bg-[#0052FF33] rounded"></img>
 
                         <div className="flex flex-col gap-1">
 
@@ -183,7 +183,7 @@ function CaseStudies() {
 
                     <div className="flex gap-4 items-start">
 
-                        <img src="../images/case-studies-img/icon/Icon3.png" className="w-8 h-8 p-2 bg-[#0052FF33] rounded"></img>
+                        <img src={`${import.meta.env.BASE_URL}images/case-studies-img/icon/Icon3.png`} className="w-8 h-8 p-2 bg-[#0052FF33] rounded"></img>
 
                         <div className="flex flex-col gap-1">
 

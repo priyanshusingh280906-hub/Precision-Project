@@ -124,7 +124,7 @@ function Contact() {
               <div className="flex gap-4">
                 <div className="bg-[#E2E7FF] p-3 rounded-lg flex items-center justify-center">
                   <img
-                    src="/images/contact-us-img/icon/Icon.png"
+                    src={`${import.meta.env.BASE_URL}images/contact-us-img/icon/Icon.png`}
                     className="w-5 h-5"
                   ></img>
                 </div>
@@ -141,7 +141,7 @@ function Contact() {
               <div className="flex gap-4">
                 <div className="bg-[#E2E7FF] p-3 rounded-lg flex items-center justify-center">
                   <img
-                    src="/images/contact-us-img/icon/Icon1.png"
+                    src={`${import.meta.env.BASE_URL}images/contact-us-img/icon/Icon1.png`}
                     className="w-5 h-5"
                   ></img>
                 </div>
@@ -158,7 +158,7 @@ function Contact() {
               <div className="flex gap-4">
                 <div className="bg-[#E2E7FF] p-3 rounded-lg flex items-center justify-center">
                   <img
-                    src="/images/contact-us-img/icon/Icon2.png"
+                    src={`${import.meta.env.BASE_URL}images/contact-us-img/icon/Icon2.png`}
                     className="w-5 h-5"
                   ></img>
                 </div>
@@ -174,8 +174,8 @@ function Contact() {
             </div>
 
             <div
-              className="h-75 sm:h-100 lg:h-125 bg-cover bg-center flex items-end justify-center"
-              style={{backgroundImage: "url('/images/contact-us-img/image1.png')"}}
+              className="h-75 sm:h-100 lg:h-75 bg-cover bg-center flex items-end justify-center rounded-lg"
+              style={{backgroundImage: `url('${import.meta.env.BASE_URL}images/contact-us-img/image1.png')`}}
             >
               <div className="bg-white/80 w-[85%] mb-5 p-4 rounded flex flex-col gap-2">
                 <div className="text-sm tracking-widest text-[#005A3C] font-inter">
@@ -193,11 +193,11 @@ function Contact() {
         <div className="bg-[#FFFFFF] my-[clamp(16px,7vw,100px)] p-10">
           <div
             className="h-75 sm:h-100 lg:h-125 w-full rounded-2xl bg-cover bg-center flex items-center justify-center"
-            style={{backgroundImage: "url('/images/contact-us-img/image2.png')"}}
+            style={{backgroundImage: `url('${import.meta.env.BASE_URL}images/contact-us-img/image1.png')`}}
           >
             <div className="bg-white flex items-center gap-4 px-6 py-4 rounded-xl">
               <img
-                src="/images/contact-us-img/icon/Icon3.png"
+                src={`${import.meta.env.BASE_URL}images/contact-us-img/icon/Icon2.png`}
                 className="h-5 w-5 p-2 bg-[#003EC7] rounded-full"
               ></img>
 

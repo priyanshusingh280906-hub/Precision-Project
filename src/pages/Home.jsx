@@ -30,12 +30,12 @@ function Home() {
           </div>
           <div className="w-full md:w-1/2 grid">
             <img
-              src="/images/homepage-img/image2.png"
+              src={`${import.meta.env.BASE_URL}images/homepage-img/image2.png`}
               alt="Hero Image 2"
               className="col-start-1 row-start-1 w-full max-w-xl min-h-175 rounded-[5px] z-2 -rotate-2 object-cover"
             />
             <img
-              src="/images/homepage-img/image1.png"
+              src={`${import.meta.env.BASE_URL}images/homepage-img/image1.png`}
               alt="Hero Image 1"
               className="col-start-1 row-start-1 w-full max-w-xl min-h-175 rounded-[5px] z-1 translate-x-12.5 rotate-3 opacity-40 object-cover"
             />
@@ -60,7 +60,7 @@ function Home() {
             <div className="flex flex-col pb-6 gap-8">
               <div className="flex flex-col gap-3.5 sm:gap-4 bg-[#F2F3FF] p-5 sm:p-6 md:p-10 rounded-md">
                 <img
-                  src="/images/homepage-img/icons/Icon1.png"
+                  src={`${import.meta.env.BASE_URL}images/homepage-img/icons/Icon1.png`}
                   alt="Script Writing Icon"
                   className="w-6 h-6"
                 />
@@ -73,7 +73,7 @@ function Home() {
               </div>
               <div className="flex flex-col gap-3.5 sm:gap-4 bg-[#F2F3FF] p-10 rounded-md">
                 <img
-                  src="/images/homepage-img/icons/Icon2.png"
+                  src={`${import.meta.env.BASE_URL}images/homepage-img/icons/Icon2.png`}
                   alt="Video Editing Icon"
                   className="w-6 h-6"
                 />
@@ -88,7 +88,7 @@ function Home() {
             <div className="flex flex-col pt-12 gap-8 md:pt-0">
               <div className="flex flex-col gap-4 bg-[#F2F3FF] p-10 rounded-md">
                 <img
-                  src="/images/homepage-img/icons/Icon3.png"
+                  src={`${import.meta.env.BASE_URL}images/homepage-img/icons/Icon3.png`}
                   alt="Digital Marketing Icon"
                   className="w-6 h-6"
                 />
@@ -101,7 +101,7 @@ function Home() {
               </div>
               <div className="flex flex-col gap-4 bg-[#F2F3FF] p-10 rounded-md">
                 <img
-                  src="/images/homepage-img/icons/Icon4.png"
+                  src={`${import.meta.env.BASE_URL}images/homepage-img/icons/Icon4.png`}
                   alt="Performance Icon"
                   className="w-6 h-6"
                 />
@@ -115,9 +115,9 @@ function Home() {
             </div>
             <div className="flex flex-col bg-[#F2F3FF] px-5 sm:px-6 md:px-10 py-10 sm:py-16 md:py-24 lg:py-40 gap-5 rounded-md">
               <img
-                src="/images/homepage-img/icons/Icon5.png"
+                src={`${import.meta.env.BASE_URL}images/homepage-img/icons/Icon5.png`}
                 alt="Product Design Icon"
-                className="w-6 h-6"
+                className="w-4.5 h-6"
               />
               <div className="text-2xl font-normal font-[Manrope]">
                 Product Design
@@ -143,7 +143,7 @@ function Home() {
           <div className="flex flex-col md:flex-row justify-between gap-10">
             <div className="flex flex-col gap-8">
               <img
-                src="/images/case-studies-img/image1.png"
+                src={`${import.meta.env.BASE_URL}images/homepage-img/image3.png`}
                 alt="LUMIÈRE ATELIER case study"
                 className="w-full max-w-139 min-h-100 rounded-[5px] object-cover"
               />
@@ -163,7 +163,7 @@ function Home() {
             </div>
             <div className="flex flex-col gap-8 md:mt-24">
               <img
-                src="/images/case-studies-img/image2.png"
+                src={`${import.meta.env.BASE_URL}images/homepage-img/image4.png`}
                 alt="KINETIC RETAIL case study"
                 className="w-full max-w-139 min-h-100 rounded-[5px] object-cover"
               />
