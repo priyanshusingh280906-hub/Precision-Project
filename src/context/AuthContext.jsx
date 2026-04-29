@@ -36,7 +36,18 @@ export function AuthProvider({ children }) {
 
       return { success: true };
     } catch (error) {
-      return { success: false, message: error.message };
+      let errorMessage = "An error occurred during signup.";
+      if (error.code === 'auth/email-already-in-use') {
+        errorMessage = "This email is already registered.";
+      } else if (error.code === 'auth/invalid-email') {
+        errorMessage = "Invalid email address format.";
+      } else if (error.code === 'auth/weak-password') {
+        errorMessage = "Password is too weak. Please use a stronger password.";
+      } else if (error.message) {
+        // Fallback to removing the 'Firebase: ' prefix if possible
+        errorMessage = error.message.replace('Firebase: ', '').replace(/\(auth.*\)\./, '').trim();
+      }
+      return { success: false, message: errorMessage };
     }
   };
 
